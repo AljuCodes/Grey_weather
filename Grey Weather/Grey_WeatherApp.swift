@@ -11,7 +11,7 @@ import SwiftUI
 struct Grey_WeatherApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().preferredColorScheme(.dark)
         }
     }
 }
